@@ -1,4 +1,4 @@
-FROM mysql
+FROM mariadb
 MAINTAINER Lasse Schuirmann <lasse.schuirmann@gmail.com
 
 RUN sed -i 's/\[mysqld\]/[mysqld]\
